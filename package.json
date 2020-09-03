@@ -1,0 +1,32 @@
+{
+  "name": "@sineverba/years-interval",
+  "version": "0.1.0",
+  "description": "Get an interval of years, useful for copyright notes",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sineverba/npm-pkg-year-interval.git"
+  },
+  "scripts": {
+    "test": "node_modules/.bin/mocha --reporter spec",
+    "cover": "node_modules/istanbul/lib/cli.js cover node_modules/mocha/bin/_mocha -- -R spec test/*"
+  },
+  "engines": {
+    "node": ">=10"
+  },
+  "keywords": [
+    "npm",
+    "package",
+    "interval",
+    "year",
+    "string"
+  ],
+  "author": "alessandro.arici@gmail.com",
+  "license": "MIT",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "coveralls": "^3.1.0",
+    "istanbul": "^0.4.5",
+    "mocha": "^8.1.3"
+  }
+}
