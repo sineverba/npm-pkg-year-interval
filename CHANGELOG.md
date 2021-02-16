@@ -1,5 +1,6 @@
-# Next version
+# 0.2.0
 + Move to Semaphore CI
++ Bump dependencies
 
 ## 0.1.1
 + Fix `travis` publish error `402 Payment Required`
