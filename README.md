@@ -3,7 +3,8 @@ Years Interval
 
 | CI / CD | Status |
 | ------- | ------ |
-| Travis | [![Build Status](https://travis-ci.com/sineverba/npm-pkg-year-interval.svg?branch=master)](https://travis-ci.com/sineverba/npm-pkg-year-interval) |
+| NPM | [[![npm version](https://badge.fury.io/js/%40sineverba%2Fyears-interval.svg)](https://badge.fury.io/js/%40sineverba%2Fyears-interval)
+| Semaphore CI | [![Build Status](https://sineverba.semaphoreci.com/badges/npm-pkg-year-interval/branches/master.svg)](https://sineverba.semaphoreci.com/projects/npm-pkg-year-interval) |
 | Coverall | [![Coverage Status](https://coveralls.io/repos/github/sineverba/npm-pkg-year-interval/badge.svg?branch=master)](https://coveralls.io/github/sineverba/npm-pkg-year-interval?branch=master) |
 
 `years interval` returns current year or a string made by a year start + current year.
