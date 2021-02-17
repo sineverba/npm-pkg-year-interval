@@ -1,4 +1,7 @@
-# 0.2.0
+# Next version
++ Skip tests on tagging
+
+## 0.2.0
 + Move to Semaphore CI
 + Bump dependencies
 
