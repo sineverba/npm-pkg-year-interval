@@ -1,5 +1,6 @@
 # Next version
 + Fix errors. Add instructions
++ Upgrade dependencies
 
 ## 1.0.0
 + Skip tests on tagging
