@@ -1,4 +1,7 @@
-# 1.0.0
+# Next version
++ Fix errors. Add instructions
+
+## 1.0.0
 + Skip tests on tagging
 + Change test suite
 
