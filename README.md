@@ -22,7 +22,7 @@ Useful to use in copyright section ("Copyright 2018-2020 by Acme INC").
 (In following examples current year is assumed as 2020)
 
 ```js
-var interval = require('@sineverba/year-interval');
+var interval = require('@sineverba/years-interval');
 // Or...
 // import interval from '@sineverba/years-interval'
 

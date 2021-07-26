@@ -1,4 +1,7 @@
-# 1.1.0
+# 1.1.1
++ Fix Semaphore deploy error
+
+## 1.1.0
 + Fix errors. Add instructions
 + Upgrade dependencies
 
