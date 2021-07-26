@@ -15,7 +15,7 @@ Useful to use in copyright section ("Copyright 2018-2020 by Acme INC").
 "2018-2020" in previous example is string returned.
 
 ## Installation
-`npm install @sineverba/year-interval`
+`npm install @sineverba/years-interval`
 
 ## Usage
 
@@ -23,6 +23,9 @@ Useful to use in copyright section ("Copyright 2018-2020 by Acme INC").
 
 ```js
 var interval = require('@sineverba/year-interval');
+// Or...
+// import interval from '@sineverba/years-interval'
+
 var yearInterval = interval("2020");
 console.log(yearInterval); // returns 2020
 var newYearInterval = interval("2018");
