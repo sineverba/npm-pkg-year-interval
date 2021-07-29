@@ -1,4 +1,4 @@
-# Next version
+# 1.2.0
 + Refactor folder structure
 + Add local Sonar
 + Add remote Sonar
