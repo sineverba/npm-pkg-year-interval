@@ -1,5 +1,6 @@
 # Next version
 + Refactor folder structure
++ Add local Sonar
 
 ## 1.1.1
 + Fix Semaphore deploy error
