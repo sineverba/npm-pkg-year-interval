@@ -7,6 +7,7 @@ Years Interval
 | Semaphore CI | [![Build Status](https://sineverba.semaphoreci.com/badges/npm-pkg-year-interval/branches/master.svg)](https://sineverba.semaphoreci.com/projects/npm-pkg-year-interval) |
 | Circle CI | [![CircleCI](https://circleci.com/gh/sineverba/npm-pkg-year-interval.svg?style=svg)](https://circleci.com/gh/sineverba/npm-pkg-year-interval) |
 | Coverall | [![Coverage Status](https://coveralls.io/repos/github/sineverba/npm-pkg-year-interval/badge.svg?branch=master)](https://coveralls.io/github/sineverba/npm-pkg-year-interval?branch=master) |
+| SonarCloud | [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=npm-pkg-year-interval&metric=alert_status)](https://sonarcloud.io/dashboard?id=npm-pkg-year-interval) |
 
 `years interval` returns current year or a string made by a year start + current year.
 
