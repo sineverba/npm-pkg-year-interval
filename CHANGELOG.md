@@ -1,4 +1,7 @@
-# 1.1.1
+# Next version
++ Refactor folder structure
+
+## 1.1.1
 + Fix Semaphore deploy error
 
 ## 1.1.0
