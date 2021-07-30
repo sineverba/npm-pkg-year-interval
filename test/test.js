@@ -1,7 +1,7 @@
 'use strict';
 
 var expect = require('chai').expect;
-var interval = require('../src/index');
+var interval = require('../index');
 const { assert } = require('chai');
 
 describe('#interval', function() {
