@@ -1,4 +1,7 @@
-# 1.2.0
+# 1.2.1
++ Fix cannot import
+
+## 1.2.0
 + Refactor folder structure
 + Add local Sonar
 + Add remote Sonar
