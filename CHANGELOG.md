@@ -1,4 +1,4 @@
-# Next version
+# 1.3.0
 + Add local Sonarqube
 + Upgrade dependencies
 
