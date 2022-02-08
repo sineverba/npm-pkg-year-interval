@@ -7,3 +7,4 @@ npm-debug.log
 .npmrc
 .nyc_output
 .scannerwork
+data/
