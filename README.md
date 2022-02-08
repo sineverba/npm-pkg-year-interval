@@ -38,6 +38,14 @@ console.log(newYearInterval); // returns 2018-2021
 
 ## Tests
 
-`npm test` for simple test
+`npm run test` for simple test
 
-`npm cover` for coverage
+`npm run cover` for coverage
+
+### SonarQube (local Docker)
++ Copy `.env.bak` in `.env`
++ Spin images `docker-compose up -d`
++ Create a new project inside Sonarqube and grab the token
++ Replace the token in the ENV var of `docker-compose.yml` file
++ Stop with `docker-compose stop` and restart with `docker-compose up -d`
++ Next spin with `make sonar`

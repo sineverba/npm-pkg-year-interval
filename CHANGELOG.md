@@ -1,4 +1,8 @@
-# 1.2.1
+# 1.3.0
++ Add local Sonarqube
++ Upgrade dependencies
+
+## 1.2.1
 + Fix cannot import
 
 ## 1.2.0
