@@ -1,4 +1,7 @@
-# 1.3.0
+# Next version
++ Refactor Semaphore
+
+## 1.3.0
 + Add local Sonarqube
 + Upgrade dependencies
 
