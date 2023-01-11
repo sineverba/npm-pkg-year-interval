@@ -8,9 +8,7 @@ agent:
 
 global_job_config:
   secrets:
-    - name: COVERALLS_YEARSINTERVAL_REPO_TOKEN
-    - name: NPM_TOKEN
-    - name: SONARCLOUD
+    - name: ACCESS_TOKENS
 
 blocks:
   - name: Install dependencies
@@ -37,10 +35,9 @@ blocks:
         - name: Test
           matrix:
             - env_var: NODE_VERSION
-              values: [ "10", "12", "14", "16" ]
+              values: [ "12", "14", "16", "18" ]
           commands:
             - sem-version node $NODE_VERSION
-            - node --version
             - npm run test
 
   - name: Coverage
@@ -54,15 +51,16 @@ blocks:
       jobs:
       - name: Coverage
         commands:
+          - export COVERALLS_REPO_TOKEN=$COVERALLS_NPM_PKG_YEAR_INTERVAL
           - npm run cover
           - cat coverage/lcov.info | node_modules/coveralls/bin/coveralls.js
       - name: Sonarcloud
         commands:
           - npm run cover
-          - docker run --rm -e SONAR_HOST_URL="https://sonarcloud.io" -e SONAR_LOGIN=$SONAR_AUTH_TOKEN -v "/home/semaphore/npm-pkg-year-interval:/usr/src" sonarsource/sonar-scanner-cli:4.6
+          - docker run --rm -e SONAR_HOST_URL="https://sonarcloud.io" -e SONAR_LOGIN=$SONAR_TOKEN -v "/home/semaphore/npm-pkg-year-interval:/usr/src" sonarsource/sonar-scanner-cli:4.8.0
 
 promotions:
   - name: Deploy
-    pipeline_file: deploy.yml
+    pipeline_file: build-deploy.yml
     auto_promote:
       when: "tag =~ '.*'"
