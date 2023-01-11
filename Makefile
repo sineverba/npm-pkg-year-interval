@@ -13,4 +13,5 @@ sonar:
 upgrade:
 	npx ncu -u
 	npm install
+	npx browserslist@latest --update-db
 	npm audit fix
