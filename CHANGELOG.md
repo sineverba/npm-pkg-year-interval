@@ -1,4 +1,8 @@
-# 1.4.0
+# 2.0.0
++ Upgrade dependencies
++ Move to TypeScript
+
+## 1.4.0
 + Refactor Semaphore
 + Upgrade dependencies
 
