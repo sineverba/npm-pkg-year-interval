@@ -72,6 +72,7 @@ blocks:
             -e SONAR_HOST_URL="https://sonarcloud.io" 
             -e SONAR_LOGIN=$SONAR_TOKEN 
             -v "/home/semaphore/npm-pkg-shortfield:/usr/src"
+            sonarsource/sonar-scanner-cli:$SONARSCANNER_VERSION
           
 promotions:
   - name: Deploy
