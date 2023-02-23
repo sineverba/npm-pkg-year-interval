@@ -1,10 +1,8 @@
-"use strict";
-
 /**
  *
  * @param {*} startYear
  */
-const getYearInterval = (startYear) => {
+export const GetYearInterval = (startYear: number) => {
   if (!startYear) {
     throw new Error("Missing startYear");
   }
@@ -14,5 +12,3 @@ const getYearInterval = (startYear) => {
   }
   return startYear;
 };
-
-module.exports = getYearInterval;
