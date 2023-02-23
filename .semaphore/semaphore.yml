@@ -68,9 +68,9 @@ blocks:
         commands:
           - >-
             docker run 
-            --rm
-            -e SONAR_HOST_URL="https://sonarcloud.io"
-            -e SONAR_LOGIN=$SONAR_TOKEN
+            --rm 
+            -e SONAR_HOST_URL="https://sonarcloud.io" 
+            -e SONAR_LOGIN=$SONAR_TOKEN 
             -v "/home/semaphore/npm-pkg-shortfield:/usr/src"
           
 promotions:
