@@ -1,4 +1,7 @@
-# 2.0.0
+# 2.1.0
++ Upgrade dependencies
+
+## 2.0.0
 + Upgrade dependencies
 + Move to TypeScript
 
