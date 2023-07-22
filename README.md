@@ -23,7 +23,7 @@ Useful to use in copyright section ("Copyright 2018-2020 by Acme INC").
 (In following examples current year is assumed as 2020)
 
 ```js
-import { Shortener } from "shortfield";
+import { GetYearInterval } from '@sineverba/years-interval';
 
 var yearInterval = Shortener("2020");
 console.log(yearInterval); // returns 2020
