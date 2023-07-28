@@ -1,4 +1,7 @@
-# 2.1.0
+# Next version
++ Refactor Semaphore
+
+## 2.1.0
 + Upgrade dependencies
 
 ## 2.0.0
