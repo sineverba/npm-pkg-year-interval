@@ -1,4 +1,4 @@
-SONARSCANNER_VERSION=4.8.0
+SONARSCANNER_VERSION=5.0.1
 
 sonar:
 	docker run --rm -it \
@@ -9,7 +9,7 @@ sonar:
 		sonarsource/sonar-scanner-cli:$(SONARSCANNER_VERSION)
 
 upgrade:
-	npx ncu --doctor -u
+	npx ncu -u
 	npm install
-	npx browserslist@latest --update-db
+	npx update-browserslist-db@latest
 	npm audit fix
