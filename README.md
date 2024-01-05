@@ -13,7 +13,7 @@ Years Interval
 
 Useful to use in copyright section ("Copyright 2018-2020 by Acme INC").
 
-"2018-2020" in previous example is string returned.
+"2018-2020" in previous example is what you get.
 
 ## Installation
 `npm install @sineverba/years-interval`
@@ -25,9 +25,9 @@ Useful to use in copyright section ("Copyright 2018-2020 by Acme INC").
 ```js
 import { GetYearInterval } from '@sineverba/years-interval';
 
-var yearInterval = Shortener("2020");
+const yearInterval = GetYearInterval("2020");
 console.log(yearInterval); // returns 2020
-var newYearInterval = Shortener("2018");
+const newYearInterval = GetYearInterval("2018");
 console.log(newYearInterval); // returns 2018-2020
 // on next year...
 console.log(yearInterval); // returns 2020-2021

@@ -5,15 +5,15 @@ describe("Test getYearInterval", function () {
    * Return "2020" (if we are currently in 2020)
    */
   it("Should return only current year", function () {
-    var currentYear = new Date().getFullYear();
-    var result = GetYearInterval(currentYear);
+    const currentYear = new Date().getFullYear();
+    const result = GetYearInterval(currentYear);
     expect(result).toBe(currentYear);
   });
 
   it("Should return two years", function () {
-    var startYear = 2010;
-    var currentYear = new Date().getFullYear();
-    var result = GetYearInterval(startYear);
+    const startYear = 2010;
+    const currentYear = new Date().getFullYear();
+    const result = GetYearInterval(startYear);
     expect(result).toBe(`2010 - ${currentYear}`);
   });
 
